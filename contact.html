@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+
+<body>
+    <nav class="navbar bg-light">
+        <header class="navbar-brand"><strong>Alicia Qiu Cheung</strong></header>
+        <ul class="form-inline">
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="index.html">About Me</a>
+            <a class="nav-link" href="portfolio.html">My Portfolio</a>
+        </ul>
+
+        <section class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+            </button>
+
+            <section class="dropdown-menu">
+                <a class="dropdown-item" href="contact.html">Contact</a>
+                <a class="dropdown-item" href="index.html">About Me</a>
+                <a class="dropdown-item" href="portfolio.html">My Portfolio</a>
+            </section>
+        </section>
+    </nav>
+
+
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="mainContainer col-lg-8 col-md-8 col-sm-12">
+                
+                <section class="jumbotron">
+                    <img class="hwkExample" src="Images/Programming.PNG" alt="headerPicture">
+                    <form action="mailto:acheung@carollo.com" method="post" enctype="text/plain">
+                        <header class="contactHeaders"><strong>Contact</strong></header>
+                        Contact Name:<br>
+                        <input type="text" class="form-group" name="name" placeholder="Contact Name"><br>
+                        Email:<br>
+                        <input type="text" class="form-group" name="mail" placeholder="Email"><br>
+                        Message:<br>
+                        <input type="text" class="form-group" name="comment" size="50" placeholder="Message"><br>
+                        <input class="form-group btn btn-warning btn-md" type="submit" value="Send">
+                        <input class="form-group btn btn-warning btn-md" type="reset" value="Reset">
+                    </form>
+
+                    <br>
+                        <a href="https://github.com/aliciaqiu27">
+                            <i class="fa fa-github" style="font-size:30px;color:black"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/alicia-qiu-cheung-eit-674189112/">
+                            <i class="fa fa-linkedin-square" style="font-size:30px;color:rgb(28, 134, 255)"></i></a>
+
+                        <a href="mailto:acheung@carollo.com">
+                            <i class="fa fa-envelope" style="font-size:30px;color:black"></i>
+                        </a>
+                        <a href="Images/AliciaQiuCheungResume.pdf" download>
+                            <i class="fa fa-file-pdf-o" style="font-size:30px;color:red"></i>
+                        </a>
+                    </br>
+
+                    <footer id="footerContainer">
+                        <a>©2020-2021 ADOME, Inc.</a>
+                        <br>Phoenix, Arizona</br>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </main>
+    </header>
+</body>
+
+</html>

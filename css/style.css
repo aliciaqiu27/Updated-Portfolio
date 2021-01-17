@@ -1,0 +1,112 @@
+body {
+    background-color: gray;
+    /* background: url(Images/Hwk_1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container {
+background-color: rgba(46, 46, 46, 0.856);
+}
+
+
+.navbar{
+  max-width: 1139px;
+  margin:auto;
+}
+
+.navbar-brand {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: rgb(0, 65, 51);
+}
+
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    display: none;
+  }
+  .dropdown {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .dropdown {
+    display: none;
+  }
+  .nav-link {
+    float: right;
+    display: block;
+  }
+}
+
+.nav-link {
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    color: rgba(1, 155, 152, 0.789);
+    font-size: 20px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.header, .portfolioHeaders, .contactHeaders {
+  font-family: 'Calistoga', cursive;
+  color: rgba(1, 155, 152, 0.789);
+}
+
+.jumbotron {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.portfolioImages{
+    padding: 10px 1px;
+    width: 365px;
+    height: 400px;
+    display: inline-block;
+}
+
+.mainContainer {
+  margin: auto;
+}
+
+.contactHeaders{
+  font-size: 30px;
+}
+
+.portfolioHeaders {
+  padding: 25px 2px;
+}
+
+
+.logo {
+  max-width: 100%;
+}
+
+
+.logoContainer, .hwkContainer, #footerContainer {
+ text-align: center;
+}
+
+.hwkExample {
+    padding: 10px 10px;
+    max-width: 100%;
+}
+
+.jumbotron{
+  background-color: white;
+}
+
+#footerContainer {
+  padding: 25px;
+} 
+
+/* .formHeader {
+  font-size: 20px;
+} */
